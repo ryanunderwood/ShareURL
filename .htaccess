@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^([A-Za-z0-9-]+)/?$ inc/a.php?a=$1 [NC]
+ErrorDocument 404 http://siteurl.com/index.php # change to your index URL.
